@@ -43,7 +43,7 @@ jobs:
           cache: 'npm'
           node-version: '14'
       - name: Install dependencies
-        run: npm ci
+        run: npm install --no-audit --no-fund --no-optional # Esto es para que no se instalen las dependencias de desarrollo, tampoco mostrará las vulneravilidades que salen despues de un npm install (que consume bastante)
       - name: Build
         run: npm run build
       - uses: actions/upload-artifact@v2
