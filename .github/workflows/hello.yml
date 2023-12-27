@@ -9,7 +9,7 @@ jobs:
   hello_world:
     runs-on: ubuntu-18.04
     steps:
-      - name: Echo the message
+      - name: Echo the message # Cuando colocamos los "-" es porque le indicamos que es una lista. La propiedad name es opcional
         run: |
           echo "Hola midu!"
       - name: Dime la fecha
