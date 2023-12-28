@@ -109,5 +109,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.HEROKU_APP}}
           heroku_email: ${{secrets.HEROKU_API_EMAIL}}
-          healthcheck: "https://${{secrets.HEROKU_APP}}.herokuapp.com/health"
+          healthcheck: "https://${{secrets.HEROKU_APP}}.herokuapp.com/health" # Va revisar si una vez despliega la url responde. Sino entonces hace un rollback con la linea debajo
           rollbackonhealthcheckfailed: true
