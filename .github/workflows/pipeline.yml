@@ -82,7 +82,7 @@ jobs:
         with:
           cache: 'npm'
           node-version: '14'
-      - name: Install dependencies
+      - name: Instalando dependencias
         run: npm ci # Lo que hace es instalar las dependencias de una manera optimizada utilizando el package-lock.json
       - uses: actions/download-artifact@v2
         with:
