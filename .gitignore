@@ -2,4 +2,3 @@ dist/
 node_modules/
 cypress/plugins
 cypress/videos
-cypress/e2e
