@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Full Stack Open",
   "engines": {
-    "node": "16..13.1",
+    "node": "16.13.1",
     "npm": "8.1.2"
   },
   "main": "src/index.js",
