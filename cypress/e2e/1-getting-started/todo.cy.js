@@ -1,3 +1,6 @@
+/* global cy */
+/* global context */
+
 /// <reference types="cypress" />
 
 // Welcome to Cypress!
